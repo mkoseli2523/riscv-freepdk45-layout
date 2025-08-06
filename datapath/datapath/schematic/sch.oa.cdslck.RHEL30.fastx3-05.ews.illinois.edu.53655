@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mkoseli2
+HostName                       fastx3-05.ews.illinois.edu
+ProcessIdentifier              53655
+ProcessCreationTime_UTC        1742835592
+ProcessCreationTime_Readable   Mon Mar 24 11:59:52 2025 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/mkoseli2/Desktop/ece425.work/mp_datapath/datapath/schematic/sch.oa.cdslck
+TimeEditLocked                 Mon Mar 24 12:09:47 2025 CDT

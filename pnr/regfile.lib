@@ -1,0 +1,60 @@
+library(datapath) {
+
+  delay_model : table_lookup;
+
+  time_unit : "1ns";
+  voltage_unit : "1V";
+  current_unit : "1uA";
+  pulling_resistance_unit : "1kohm";
+  leakage_power_unit : "1nW";
+  capacitive_load_unit (1,pf);
+
+  type (regfile_sel) {
+    base_type : array ;
+    data_type : bit ;
+    bit_width : 32;
+    bit_from : 31;
+    bit_to : 0 ;
+    downto : true ;
+  }
+
+  cell (regfile) {
+    area : 52.27;
+    interface_timing : true;
+
+    pin(clk) {
+      direction : input;
+      clock : true;
+    }
+  
+    bus(rs1_sel) {
+      bus_type : regfile_sel;
+      direction : input;
+    }
+    pin(rs1_rdata) {
+      direction : output;
+    }
+
+    bus(rs2_sel) {
+      bus_type : regfile_sel;
+      direction : input;
+    }
+    pin(rs2_rdata) {
+      direction : output;
+    }
+
+    bus(rd_sel) {
+      bus_type : regfile_sel;
+      direction : input;
+    }
+    pin(rd_mux_out) {
+      direction : input;
+    }
+
+    bus(rf_data) {
+      bus_type : regfile_sel;
+      direction : output;
+    }
+  }
+
+}

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mkoseli2
+HostName                       dcl-l416-25.ews.illinois.edu
+ProcessIdentifier              41239
+ProcessCreationTime_UTC        1744645722
+ProcessCreationTime_Readable   Mon Apr 14 10:48:42 2025 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/mkoseli2/Desktop/ece425.work/mp_datapath/mem_mux/layout/layout.oa.cdslck
+TimeEditLocked                 Mon Apr 14 11:04:04 2025 CDT
